@@ -1,0 +1,14 @@
+{
+  "name": "popwatch",
+  "version": "1.0.0",
+  "description": "A batch process for logging inbound POP/IMAP messages to a web server.",
+  "main": "popwatch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Scott Means",
+  "license": "ISC",
+  "dependencies": {
+    "poplib": "file:node_modules/poplib"
+  }
+}
